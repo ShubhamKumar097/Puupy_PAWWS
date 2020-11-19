@@ -1,0 +1,154 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.container-fluid{
+ padding: 3% 10%;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 3.0rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Anton', sans-serif;
+}
+
+p{
+  color: #222831;
+  padding-top: 2%;
+}
+
+.navbar{
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Anton', sans-serif;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.25rem;
+}
+
+.download-button{
+ margin: 5% 3% 5% 0%;
+}
+
+.title-img{
+  width: 17%;
+  transform: rotate(28deg);
+  position: absolute;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: red;
+  margin: 1rem;
+}
+
+.icon:hover{
+  color: pink;
+}
+
+#testomonials{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.p-img{
+  width: 10%;
+   margin: 15px;
+   padding: auto;
+}
+
+#pricing{
+  padding: 100px;
+  background-color: #fff;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px)
+{
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#abt{
+  text-align: center;
+  padding: 3% 12%;
+  background-color: #ff4c68;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#footer{
+  text-align: center;
+  padding: 1% 10%;
+  background-color: #fff;
+  font-size: 1.0rem;
+}
+
+.footer-link{
+margin: 0 15px 0 15px;
+}
+
+h4{
+  color: #000;
+}
+
+.copyright:hover{
+  color: #19d3da;
+}
